@@ -61,7 +61,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aipaint"       // ai绘图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"        // 随机老婆
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/alipayvoice"   // 支付宝到账语音
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/autowithdraw"  // 触发者撤回时也自动撤回
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/autowithdraw"  // 触发者撤回时也自动撤回
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/b14"           // base16384加解密
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"         // 百度一下
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baiduaudit"    // 百度内容审核
@@ -73,10 +73,10 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/choose"        // 选择困难症帮手
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chouxianghua"  // 说抽象话
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chrev"         // 英文字符翻转
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser"         // 三次元小姐姐
+	
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/cpstory"       // cp短打
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/danbooru"      // DeepDanbooru二次元图标签识别
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"         // 嘉心糖发病
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"         // 嘉心糖发病
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/dress"         // 女装
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/drift_bottle"  // 漂流瓶
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/emojimix"      // 合成emoji
@@ -95,8 +95,8 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/inject"        // 注入指令
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jandan"        // 煎蛋网无聊图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jiami"         // 兽语加密
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jikipedia"     // 小鸡词典
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jptingroom"    // 日语听力学习材料
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jikipedia"     // 小鸡词典
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jptingroom"    // 日语听力学习材料
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/juejuezi"      // 绝绝子生成器
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/lolicon"       // lolicon 随机图片
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/magicprompt"   // magicprompt吟唱提示
@@ -138,6 +138,12 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wordle"        // 猜单词
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ygo"           // 游戏王相关插件
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ymgal"         // 月幕galgame
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat"   //聊天
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleep_manage"//睡觉
+	
+	
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser"//coser
+	
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/thesaurus"     // 词典匹配回复
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"           // 鬼东西
